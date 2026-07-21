@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hform{
+    display: flex;
+    justify-content: left;   
+    align-items: left;
+    width: 450px;
+    height: 250px;
+    /* background-color: #ec53ec; */
+    font-size: 20px;
+    padding: 1rem;
+    position: absolute;
+    top: 100px;
+    left: 105px;
+}
+
+.cto{
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    /* background-color: #ec53ec; */
+    font-size: 30px;
+    font-weight: thick;
+    padding: 1rem;
+    position: absolute;
+    top: calc(50% + 50px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
