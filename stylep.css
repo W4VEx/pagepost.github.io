@@ -62,10 +62,7 @@ h1{
         position: absolute;
         bottom: 10px;
     }
-@media print {
-    .back a{
-        display: none !important; /* ซ่อนปุ่มทั้งหมดเมื่อกดพิมพ์ */
-    }
+
 
 @media (max-width: 1000px) {
 
@@ -204,5 +201,11 @@ h1{
 
     
 }
+
+@media print {
+    .back a{
+        display: none !important; /* ซ่อนปุ่มทั้งหมดเมื่อกดพิมพ์ */
+    }
+
 
 }
