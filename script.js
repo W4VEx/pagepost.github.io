@@ -9,7 +9,6 @@ let showname = document.getElementById('showname')
 let shnr = document.getElementById('shownamerec')
 let shaddrev = document.getElementById('showaddrev')
 let shph = document.getElementById('showphonerev')
-let hf = document.getElementById('hform')
 
 btnsub.addEventListener('click', ()=>{
 
