@@ -47,6 +47,25 @@ h1{
     transform: translate(-50%, -50%);
 }
 
+.back a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        width: 150px;
+        height: 50px;
+        /* border: #000 2px solid; */
+        box-shadow: 2px 2px 1px #000;
+        margin: 10px;
+        background-color: #ddd;
+        text-decoration: none;
+        position: absolute;
+        bottom: 10px;
+    }
+@media print {
+    .back a{
+        display: none !important; /* ซ่อนปุ่มทั้งหมดเมื่อกดพิมพ์ */
+    }
 
 @media (max-width: 1000px) {
 
@@ -183,10 +202,7 @@ h1{
         top: 75%;
     }
 
-    @media print {
-    .back a {
-        display: none !important; /* ซ่อนปุ่มทั้งหมดเมื่อกดพิมพ์ */
-    }
+    
 }
 
 }
