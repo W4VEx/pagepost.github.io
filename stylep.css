@@ -92,7 +92,7 @@ h1{
         height: 800px;
         border: 2px solid #000;
         position: absolute;
-        top: calc(40% + 50px);
+        top: calc(40% + 70px);
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -100,18 +100,20 @@ h1{
         display: flex;
         justify-content: center;   
         align-items: center;
-        width: 100%;
-        height: 80px;
+        width: 150px;
+        height: 40px;
         font-size: 20px;
         font-weight: bolder;
+        border: 1px #000 solid;
         margin: 10px;
         position: absolute;
-        top: -5px;
+        top: 15px;
     }
 
     .htitle{
         display: flex;
         justify-content: start;
+        align-items: start;
         width: 100%;
         font-size: 20px;
         margin: 10px;
@@ -124,12 +126,14 @@ h1{
     }
     .stxt{
         display: flex;
-        justify-content: start;
+        justify-content: center;
+        align-items: center;
         width: 450px;
         font-family: sans-serif;
         position: absolute;
-        top: 35px;
-        left: 100px;
+        /* top: 45px; */
+        left: 75px;
+        
 
     }
 
@@ -138,17 +142,18 @@ h1{
         display: flex;
         flex-direction: column;
         justify-content: center;   
-        align-items: center;
-        width: 100%;
-        height: 80px;
+        align-items: start;
+        width: 550px;
+        height: 200px;
         font-size: 20px;
         padding: 80px;
-        border: 2px solid #000;
-        border-left: none;
-        border-right: none;
+        border: 2px solid #bbb;
+        /* border-left: none;
+        border-right: none; */
+        border-radius: 15px;
         position: absolute;
         top:88px;
-        left: 0;
+        left: auto;
     } 
     
     .cto{
@@ -156,21 +161,22 @@ h1{
         flex-direction: column;
         justify-content: center;   
         align-items: center;
-        width: 100%;
-        height: 200px;
+        width: 550px;
+        height: 220px;
         font-size: 20px;
         padding: 80px;
-        border: 2px solid #000;
-         border-left: none;
-        border-right: none;
+        border: 2px solid #bbb;
+        border-radius: 15px;
+         /* border-left: none;
+        border-right: none; */
         position: absolute;
-        top:350px;
+        top:430px;
         right:0;
     }
     .fcto{
         display: flex;
-        flex-direction: column;
-        justify-content: start;   
+        flex-direction: center;
+        justify-content: center;   
         align-items: center;
         width: 100%;
         font-size: 20px;
@@ -178,25 +184,32 @@ h1{
         padding: 80px;
         /* border: 2px solid #000; */
         position: absolute;
-        top:-50px;
-        left:-240px;
+        top: -60px;
+        left: -200px;
     }
     .ftxt{
         display: flex;
-        justify-content: start;
+        justify-content: center;
         width: 450px;
         align-items: center;
         font-family: sans-serif;
         position: absolute;
-        top: 60px;
-        left: 100px;
+        /* top: 60px; */
+        left: 80px;
     }
     h1{
         display: flex;
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 75%;
+        top: 85%;
+    }
+    hr{
+        display: flex;
+        width: 100%;
+        border-color: #000;
+        position: absolute;
+        top: 620px;
     }
 
     

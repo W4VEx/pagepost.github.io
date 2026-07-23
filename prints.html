@@ -3,16 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="stylep.css">
+    <title>ใบปะหน้าพัสดุ</title>
+    <link rel="stylesheet" href="stylep.css"/>
 </head>
 <body>
-
-
-
 <div class="container">
 
-<div class="title"> ใบปะหน้ากล่อง </div>
+<div class="title"> ใบปะหน้าพัสดุ </div>
 
 <div id="hform" class="hform">
     <div id = "htitle" class="htitle"> Sender :</div>
@@ -24,7 +21,7 @@
     <div id="ftxt"class="ftxt"></div>
 
 </div>
-
+<hr>
 <h1>โปรดอย่าโยนระวังสินค้าเสียหาย</h1>
 
 </div>
@@ -32,8 +29,6 @@
 <div id="back" class="back"><a href="index.html"> Back </a></div>
 
 <script>
-    bh = document.getElementById('back')
-
     stxt.innerHTML = `ชื่อผู้ส่ง : ` + localStorage.getItem('nsen') + `<br>` + `ที่อยู่ผู้ส่ง : ` + localStorage.getItem('senadd') + `<br>` + `โทร : ` + localStorage.getItem('senphone');
     ftxt.innerHTML =  `ชื่อผู้รับ : ` + localStorage.getItem('recna') + `<br>` + `ที่อยู่ผู้รับ : ` + localStorage.getItem('revaadd') + `<br>` + `โทร : ` + localStorage.getItem('revphone');
 
