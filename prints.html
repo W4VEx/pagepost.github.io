@@ -28,11 +28,32 @@
 
 <div id="back" class="back"><a href="index.html"> Back </a></div>
 
-<script>
+<!-- <script>
     stxt.innerHTML = `ชื่อผู้ส่ง : ` + localStorage.getItem('nsen') + `<br>` + `ที่อยู่ผู้ส่ง : ` + localStorage.getItem('senadd') + `<br>` + `โทร : ` + localStorage.getItem('senphone');
     ftxt.innerHTML =  `ชื่อผู้รับ : ` + localStorage.getItem('recna') + `<br>` + `ที่อยู่ผู้รับ : ` + localStorage.getItem('revaadd') + `<br>` + `โทร : ` + localStorage.getItem('revphone');
 
-</script>>
+</script>> -->
+
+<script>
+
+    stxt.innerHTML = `<b> ชื่อผู้ส่ง </b> :` + localStorage.getItem('nsen')+`<br>` +
+                     `<b>ตำบล :</b>`+localStorage.getItem('district') + `  ` +
+                     `<b>อำเภอ</b> :` +' '+ localStorage.getItem('amphoe') +   `<br>` + 
+                     `<b>จังหวัด :</b>` +' '+ localStorage.getItem('province') + `  `+
+                     `<b>รหัสไปรษณีย์ :</b>` +` `+ localStorage.getItem('zipcode') +  `<br>` + 
+                     `<b>โทร : </b>` + localStorage.getItem('senphone')
+
+    ftxt.innerHTML = `<b> ชื่อผู้รับ </b> :` + localStorage.getItem('recna')+`<br>` +
+                     `<b>ตำบล :</b>`+localStorage.getItem('district2') + `  ` +
+                     `<b>อำเภอ</b> :` + localStorage.getItem('amphoe2') +   `<br>` + 
+                     `<b>จังหวัด :</b>` + localStorage.getItem('province2') + `  `+
+                     `<b>รหัสไปรษณีย์ :</b>`+`  ` + localStorage.getItem('zipcode2') +  `<br>` + 
+                     `<b>โทร :</b>`+`  ` + localStorage.getItem('senphone')
+
+
+
+</script>
+
 
 </body>
 </html>

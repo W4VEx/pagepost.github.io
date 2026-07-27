@@ -121,21 +121,25 @@ h1{
         position: absolute;
         top: 0;
         left: 10px;
+        /* background-color:aqua; */
         /* -webkit-text-stroke: 1px #000; */
    
     }
-    .stxt{
+    /* .stxt{
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
-        width: 450px;
+        width: 100%;
+        font-size: 15px;
+        height: 100px;
         font-family: sans-serif;
         position: absolute;
-        /* top: 45px; */
+   
         left: 75px;
+        background-color: aquamarine;
         
 
-    }
+    } */
 
 
     .hform{
@@ -187,16 +191,16 @@ h1{
         top: -60px;
         left: -200px;
     }
-    .ftxt{
+    /* .ftxt{
         display: flex;
         justify-content: center;
         width: 450px;
         align-items: center;
         font-family: sans-serif;
         position: absolute;
-        /* top: 60px; */
+        /* top: 60px; 
         left: 80px;
-    }
+    } */
     h1{
         display: flex;
         justify-content: center;
